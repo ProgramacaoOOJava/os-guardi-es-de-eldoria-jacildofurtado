@@ -1,4 +1,6 @@
-public class Personagem {
+package desafio;
+
+public abstract class Personagem {
     // Atributos do personagem
     String nome;
     String classe;
@@ -26,5 +28,7 @@ public class Personagem {
         System.out.println("Poder Base: " + poderBase);
 
     }
+
+    public abstract void usarHabilidadeEspecial(); // Método abstrato para ser implementado pelas subclasses
 }
 
